@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-20T22:47:31.482408+00:00",
+  "generated_utc": "2026-11-20T22:48:09.008468+00:00",
   "time_zone": "Europe/Moscow",
   "probability_calibrated": false,
   "cities": {
     "podolsk": {
       "name": "Подольск",
       "forecast": {
-        "issued_utc": "2026-11-20T22:10:14.367481+00:00",
-        "archive_id": "podolsk_20261120T221014367481Z_b2f564fa.json",
+        "issued_utc": "2026-11-20T22:47:45.233002+00:00",
+        "archive_id": "podolsk_20261120T224745233002Z_12208ba9.json",
         "source": "Open-Meteo model forecasts, archived by Weather Ensemble",
         "model_count": 5,
         "rain_probability_calibrated": false,
@@ -315,8 +315,8 @@
     "chekhov": {
       "name": "Чехов",
       "forecast": {
-        "issued_utc": "2026-11-20T22:10:17.305842+00:00",
-        "archive_id": "chekhov_20261120T221017305842Z_41b140b4.json",
+        "issued_utc": "2026-11-20T22:47:47.628167+00:00",
+        "archive_id": "chekhov_20261120T224747628167Z_4874f8f1.json",
         "source": "Open-Meteo model forecasts, archived by Weather Ensemble",
         "model_count": 5,
         "rain_probability_calibrated": false,
