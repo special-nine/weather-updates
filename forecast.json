@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-11-20T22:00:34.325795+00:00",
+  "time_zone": "Europe/Moscow",
+  "probability_calibrated": false,
+  "cities": {
+    "podolsk": {
+      "name": "Подольск",
+      "forecast": {
+        "issued_utc": "2026-11-20T15:25:43.070332+00:00",
+        "archive_id": "podolsk_20261120T152543070332Z_cea455b0.json",
+        "source": "Open-Meteo model forecasts, archived by Weather Ensemble",
+        "model_count": 5,
+        "rain_probability_calibrated": false,
+        "hours": [
+          {
+            "end_utc": "2026-11-20T16:00:00+00:00",
+            "temperature_c": 4.22,
+            "wind_ms": 2.6,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T17:00:00+00:00",
+            "temperature_c": 4.04,
+            "wind_ms": 2.59,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T18:00:00+00:00",
+            "temperature_c": 3.94,
+            "wind_ms": 2.49,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T19:00:00+00:00",
+            "temperature_c": 3.8,
+            "wind_ms": 2.4,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T20:00:00+00:00",
+            "temperature_c": 3.8,
+            "wind_ms": 2.48,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T21:00:00+00:00",
+            "temperature_c": 3.8,
+            "wind_ms": 2.47,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T22:00:00+00:00",
+            "temperature_c": 3.76,
+            "wind_ms": 2.36,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 1
+          },
+          {
+            "end_utc": "2026-11-20T23:00:00+00:00",
+            "temperature_c": 3.64,
+            "wind_ms": 1.98,
+            "precipitation_mm_median": 0.1,
+            "rain_model_votes": 1
+          },
+          {
+            "end_utc": "2026-11-21T00:00:00+00:00",
+            "temperature_c": 3.58,
+            "wind_ms": 1.66,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 3
+          },
+          {
+            "end_utc": "2026-11-21T01:00:00+00:00",
+            "temperature_c": 3.52,
+            "wind_ms": 1.61,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 3
+          },
+          {
+            "end_utc": "2026-11-21T02:00:00+00:00",
+            "temperature_c": 3.48,
+            "wind_ms": 1.49,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 3
+          },
+          {
+            "end_utc": "2026-11-21T03:00:00+00:00",
+            "temperature_c": 3.46,
+            "wind_ms": 1.29,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 3
+          },
+          {
+            "end_utc": "2026-11-21T04:00:00+00:00",
+            "temperature_c": 3.5,
+            "wind_ms": 1.27,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-21T05:00:00+00:00",
+            "temperature_c": 3.48,
+            "wind_ms": 1.28,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-21T06:00:00+00:00",
+            "temperature_c": 3.52,
+            "wind_ms": 1.53,
+            "precipitation_mm_median": 0.4,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-21T07:00:00+00:00",
+            "temperature_c": 3.78,
+            "wind_ms": 1.72,
+            "precipitation_mm_median": 0.5,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-21T08:00:00+00:00",
+            "temperature_c": 4.06,
+            "wind_ms": 1.82,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-21T09:00:00+00:00",
+            "temperature_c": 4.3,
+            "wind_ms": 3.01,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-21T10:00:00+00:00",
+            "temperature_c": 4.28,
+            "wind_ms": 3.95,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-21T11:00:00+00:00",
+            "temperature_c": 4.12,
+            "wind_ms": 4.71,
+            "precipitation_mm_median": 0.1,
+            "rain_model_votes": 2
+          },
+          {
+            "end_utc": "2026-11-21T12:00:00+00:00",
+            "temperature_c": 3.66,
+            "wind_ms": 5.08,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 1
+          },
+          {
+            "end_utc": "2026-11-21T13:00:00+00:00",
+            "temperature_c": 3.22,
+            "wind_ms": 5.15,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-21T14:00:00+00:00",
+            "temperature_c": 2.48,
+            "wind_ms": 4.98,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-21T15:00:00+00:00",
+            "temperature_c": 1.66,
+            "wind_ms": 4.76,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          }
+        ]
+      },
+      "verification": {
+        "hourly": {
+          "forecast_issued_utc": "2026-11-17T15:58:12.316213+00:00",
+          "verified_utc": "2026-11-20T15:25:37.604084+00:00",
+          "archive_id": "podolsk_20261117T155812316213Z_b9e192bf.json",
+          "temperature_station": {
+            "id": "UUDD0",
+            "name": "Moscow / Lyamtsino",
+            "distance_km": 22.6
+          },
+          "rain_station": {
+            "id": "16578",
+            "name": "Гидрометцентр России, крыша здания в Москве",
+            "distance_km": 35.47,
+            "interval_minutes": 10
+          },
+          "hours_compared": 24,
+          "temperature_mae_c": 0.7425,
+          "wind_mae_ms": 1.70908,
+          "rain_mae_mm_per_hour": 0.16292,
+          "local_city_truth": false
+        },
+        "rain_12h": {
+          "period_start_utc": "2026-11-19T18:00:00+00:00",
+          "period_end_utc": "2026-11-20T06:00:00+00:00",
+          "forecast_issued_utc": "2026-11-19T15:43:11.029271+00:00",
+          "verified_utc": "2026-11-20T16:19:16.119209+00:00",
+          "forecast_archive_id": "podolsk_20261119T154311029271Z_90f79d2e.json",
+          "observation_archive_id": "20261120T060000Z_8bf637e718b5.json",
+          "station": {
+            "id": "27613",
+            "name": "Домодедово, аэропорт (SYNOP)",
+            "latitude": 55.416666666667,
+            "longitude": 37.9,
+            "distance_km": 22.42,
+            "provider": "RP5 (Raspisaniye Pogodi Ltd.), station SYNOP reports"
+          },
+          "observed_mm": 0.3,
+          "predicted_mm_equal_mean": 0.12,
+          "hours_compared": 12,
+          "local_city_truth": false
+        }
+      }
+    },
+    "chekhov": {
+      "name": "Чехов",
+      "forecast": {
+        "issued_utc": "2026-11-20T15:26:22.165301+00:00",
+        "archive_id": "chekhov_20261120T152622165301Z_7d6e5f64.json",
+        "source": "Open-Meteo model forecasts, archived by Weather Ensemble",
+        "model_count": 5,
+        "rain_probability_calibrated": false,
+        "hours": [
+          {
+            "end_utc": "2026-11-20T16:00:00+00:00",
+            "temperature_c": 3.98,
+            "wind_ms": 2.57,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T17:00:00+00:00",
+            "temperature_c": 3.8,
+            "wind_ms": 2.53,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T18:00:00+00:00",
+            "temperature_c": 3.74,
+            "wind_ms": 2.47,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T19:00:00+00:00",
+            "temperature_c": 3.66,
+            "wind_ms": 2.41,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T20:00:00+00:00",
+            "temperature_c": 3.6,
+            "wind_ms": 2.37,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T21:00:00+00:00",
+            "temperature_c": 3.58,
+            "wind_ms": 2.32,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-20T22:00:00+00:00",
+            "temperature_c": 3.52,
+            "wind_ms": 1.93,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 1
+          },
+          {
+            "end_utc": "2026-11-20T23:00:00+00:00",
+            "temperature_c": 3.36,
+            "wind_ms": 1.68,
+            "precipitation_mm_median": 0.1,
+            "rain_model_votes": 2
+          },
+          {
+            "end_utc": "2026-11-21T00:00:00+00:00",
+            "temperature_c": 3.32,
+            "wind_ms": 1.5,
+            "precipitation_mm_median": 0.1,
+            "rain_model_votes": 2
+          },
+          {
+            "end_utc": "2026-11-21T01:00:00+00:00",
+            "temperature_c": 3.34,
+            "wind_ms": 1.32,
+            "precipitation_mm_median": 0.1,
+            "rain_model_votes": 2
+          },
+          {
+            "end_utc": "2026-11-21T02:00:00+00:00",
+            "temperature_c": 3.34,
+            "wind_ms": 1.11,
+            "precipitation_mm_median": 0.1,
+            "rain_model_votes": 2
+          },
+          {
+            "end_utc": "2026-11-21T03:00:00+00:00",
+            "temperature_c": 3.34,
+            "wind_ms": 0.97,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 3
+          },
+          {
+            "end_utc": "2026-11-21T04:00:00+00:00",
+            "temperature_c": 3.34,
+            "wind_ms": 1.2,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-21T05:00:00+00:00",
+            "temperature_c": 3.32,
+            "wind_ms": 1.4,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-21T06:00:00+00:00",
+            "temperature_c": 3.42,
+            "wind_ms": 1.6,
+            "precipitation_mm_median": 0.5,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-21T07:00:00+00:00",
+            "temperature_c": 3.7,
+            "wind_ms": 1.7,
+            "precipitation_mm_median": 0.4,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-21T08:00:00+00:00",
+            "temperature_c": 4.0,
+            "wind_ms": 2.18,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-21T09:00:00+00:00",
+            "temperature_c": 4.16,
+            "wind_ms": 3.23,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-21T10:00:00+00:00",
+            "temperature_c": 4.14,
+            "wind_ms": 3.86,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-21T11:00:00+00:00",
+            "temperature_c": 3.88,
+            "wind_ms": 4.64,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 1
+          },
+          {
+            "end_utc": "2026-11-21T12:00:00+00:00",
+            "temperature_c": 3.52,
+            "wind_ms": 4.65,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-21T13:00:00+00:00",
+            "temperature_c": 2.98,
+            "wind_ms": 4.84,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-21T14:00:00+00:00",
+            "temperature_c": 2.1,
+            "wind_ms": 4.37,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-21T15:00:00+00:00",
+            "temperature_c": 1.16,
+            "wind_ms": 4.19,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 1
+          }
+        ]
+      },
+      "verification": {
+        "hourly": {
+          "forecast_issued_utc": "2026-11-17T15:58:51.806136+00:00",
+          "verified_utc": "2026-11-20T15:25:37.604084+00:00",
+          "archive_id": "chekhov_20261117T155851806136Z_aed28c6f.json",
+          "temperature_station": {
+            "id": "UUDD0",
+            "name": "Moscow / Lyamtsino",
+            "distance_km": 39.1
+          },
+          "rain_station": {
+            "id": "16578",
+            "name": "Гидрометцентр России, крыша здания в Москве",
+            "distance_km": 67.03,
+            "interval_minutes": 10
+          },
+          "hours_compared": 24,
+          "temperature_mae_c": 0.77667,
+          "wind_mae_ms": 1.97475,
+          "rain_mae_mm_per_hour": 0.19208,
+          "local_city_truth": false
+        },
+        "rain_12h": {
+          "period_start_utc": "2026-11-19T18:00:00+00:00",
+          "period_end_utc": "2026-11-20T06:00:00+00:00",
+          "forecast_issued_utc": "2026-11-19T15:43:50.464003+00:00",
+          "verified_utc": "2026-11-20T16:19:16.119209+00:00",
+          "forecast_archive_id": "chekhov_20261119T154350464003Z_f1907c72.json",
+          "observation_archive_id": "20261120T060000Z_b0a7117f24b5.json",
+          "station": {
+            "id": "27618",
+            "name": "Серпухов, М-II (SYNOP)",
+            "latitude": 54.9225,
+            "longitude": 37.4655,
+            "distance_km": 25.24,
+            "provider": "RP5 (Raspisaniye Pogodi Ltd.), station SYNOP reports"
+          },
+          "observed_mm": 0.0,
+          "predicted_mm_equal_mean": 0.1,
+          "hours_compared": 12,
+          "local_city_truth": false
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+name: Weather Ensemble APK release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'pending/release.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check exact signed file and publication metadata
+        id: inspect
+        shell: bash
+        run: |
+          python - <<'PY'
+          import hashlib, json, os, pathlib, re
+          manifest = json.loads(pathlib.Path('pending/release.json').read_text())
+          version = manifest['version']
+          if not re.fullmatch(r'0\.\d+\.\d+', version):
+              raise SystemExit('Invalid version')
+          if manifest.get('package') != 'ru.weatherensemble.app':
+              raise SystemExit('Wrong Android package')
+          asset = pathlib.Path('pending') / f'WeatherEnsemble-{version}.apk'
+          if not asset.is_file() or asset.stat().st_size != manifest['size']:
+              raise SystemExit('Missing APK or size mismatch')
+          if hashlib.sha256(asset.read_bytes()).hexdigest() != manifest['sha256']:
+              raise SystemExit('APK checksum mismatch')
+          if not pathlib.Path('pending/notes.md').is_file():
+              raise SystemExit('Missing release notes')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f'version={version}\n')
+              output.write(f'asset={asset.as_posix()}\n')
+          print(f'Checked WeatherEnsemble-{version}.apk ({manifest["size"]} bytes)')
+          PY
+      - name: Create public release
+        shell: bash
+        env:
+          VERSION: ${{ steps.inspect.outputs.version }}
+          ASSET: ${{ steps.inspect.outputs.asset }}
+        run: |
+          if gh release view "v$VERSION" --repo special-nine/weather-updates >/dev/null 2>&1; then
+            echo "Release v$VERSION already exists; checking its asset"
+          else
+            gh release create "v$VERSION" "$ASSET" \
+              --repo special-nine/weather-updates \
+              --title "Погода: ансамбль $VERSION" \
+              --notes-file pending/notes.md \
+              --latest
+          fi
+          gh api "repos/special-nine/weather-updates/releases/tags/v$VERSION" > "$RUNNER_TEMP/public-release.json"
+          python - <<'PY'
+          import json, os, pathlib
+          manifest = json.loads(pathlib.Path('pending/release.json').read_text())
+          published = json.loads((pathlib.Path(os.environ['RUNNER_TEMP']) / 'public-release.json').read_text())
+          expected = f"WeatherEnsemble-{manifest['version']}.apk"
+          assets = [asset for asset in published['assets'] if asset['name'] == expected]
+          if (published['draft'] or published['prerelease'] or len(assets) != 1 or
+                  assets[0]['size'] != manifest['size'] or
+                  assets[0]['digest'] != 'sha256:' + manifest['sha256']):
+              raise SystemExit('Published release asset differs from the signed APK')
+          print('Verified public release asset:', expected)
+          PY
