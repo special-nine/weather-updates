@@ -1,193 +1,193 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-24T04:24:14.213032+00:00",
+  "generated_utc": "2026-11-24T17:42:01.785346+00:00",
   "time_zone": "Europe/Moscow",
   "probability_calibrated": false,
   "cities": {
     "podolsk": {
       "name": "Подольск",
       "forecast": {
-        "issued_utc": "2026-11-23T18:04:11.850861+00:00",
-        "archive_id": "podolsk_20261123T180411850861Z_dd91c1d9.json",
+        "issued_utc": "2026-11-24T17:41:37.877162+00:00",
+        "archive_id": "podolsk_20261124T174137877162Z_7311c750.json",
         "source": "Open-Meteo model forecasts, archived by Weather Ensemble",
         "model_count": 5,
         "rain_probability_calibrated": false,
         "hours": [
           {
-            "end_utc": "2026-11-23T19:00:00+00:00",
+            "end_utc": "2026-11-24T18:00:00+00:00",
+            "temperature_c": -1.24,
+            "wind_ms": 7.51,
+            "precipitation_mm_median": 0.6,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-24T19:00:00+00:00",
+            "temperature_c": -1.32,
+            "wind_ms": 7.35,
+            "precipitation_mm_median": 0.8,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-24T20:00:00+00:00",
+            "temperature_c": -1.38,
+            "wind_ms": 7.36,
+            "precipitation_mm_median": 0.8,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-24T21:00:00+00:00",
+            "temperature_c": -1.4,
+            "wind_ms": 7.4,
+            "precipitation_mm_median": 0.8,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-24T22:00:00+00:00",
+            "temperature_c": -1.5,
+            "wind_ms": 7.5,
+            "precipitation_mm_median": 0.8,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-24T23:00:00+00:00",
             "temperature_c": -1.56,
-            "wind_ms": 1.9,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "wind_ms": 7.5,
+            "precipitation_mm_median": 0.8,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-23T20:00:00+00:00",
-            "temperature_c": -1.7,
-            "wind_ms": 1.36,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "end_utc": "2026-11-25T00:00:00+00:00",
+            "temperature_c": -1.6,
+            "wind_ms": 7.48,
+            "precipitation_mm_median": 0.9,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-23T21:00:00+00:00",
-            "temperature_c": -1.86,
-            "wind_ms": 1.41,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "end_utc": "2026-11-25T01:00:00+00:00",
+            "temperature_c": -1.66,
+            "wind_ms": 7.4,
+            "precipitation_mm_median": 0.9,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-23T22:00:00+00:00",
-            "temperature_c": -1.98,
-            "wind_ms": 1.56,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "end_utc": "2026-11-25T02:00:00+00:00",
+            "temperature_c": -1.74,
+            "wind_ms": 7.32,
+            "precipitation_mm_median": 0.7,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-23T23:00:00+00:00",
-            "temperature_c": -1.86,
-            "wind_ms": 1.65,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "end_utc": "2026-11-25T03:00:00+00:00",
+            "temperature_c": -1.8,
+            "wind_ms": 7.22,
+            "precipitation_mm_median": 0.6,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-24T00:00:00+00:00",
+            "end_utc": "2026-11-25T04:00:00+00:00",
+            "temperature_c": -1.84,
+            "wind_ms": 7.07,
+            "precipitation_mm_median": 0.5,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T05:00:00+00:00",
             "temperature_c": -1.88,
-            "wind_ms": 1.65,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "wind_ms": 6.97,
+            "precipitation_mm_median": 0.4,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-24T01:00:00+00:00",
-            "temperature_c": -2.08,
-            "wind_ms": 1.76,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "end_utc": "2026-11-25T06:00:00+00:00",
+            "temperature_c": -1.92,
+            "wind_ms": 6.79,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-24T02:00:00+00:00",
-            "temperature_c": -2.38,
-            "wind_ms": 1.99,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "end_utc": "2026-11-25T07:00:00+00:00",
+            "temperature_c": -1.9,
+            "wind_ms": 6.7,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-24T03:00:00+00:00",
-            "temperature_c": -2.6,
-            "wind_ms": 2.38,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "end_utc": "2026-11-25T08:00:00+00:00",
+            "temperature_c": -1.8,
+            "wind_ms": 6.62,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-24T04:00:00+00:00",
-            "temperature_c": -2.64,
-            "wind_ms": 2.96,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "end_utc": "2026-11-25T09:00:00+00:00",
+            "temperature_c": -1.74,
+            "wind_ms": 6.65,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-24T05:00:00+00:00",
-            "temperature_c": -2.66,
-            "wind_ms": 3.48,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "end_utc": "2026-11-25T10:00:00+00:00",
+            "temperature_c": -1.76,
+            "wind_ms": 6.64,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-24T06:00:00+00:00",
-            "temperature_c": -2.16,
-            "wind_ms": 4.02,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
+            "end_utc": "2026-11-25T11:00:00+00:00",
+            "temperature_c": -1.82,
+            "wind_ms": 6.55,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 4
           },
           {
-            "end_utc": "2026-11-24T07:00:00+00:00",
-            "temperature_c": -1.7,
-            "wind_ms": 4.45,
-            "precipitation_mm_median": 0.0,
+            "end_utc": "2026-11-25T12:00:00+00:00",
+            "temperature_c": -1.96,
+            "wind_ms": 6.49,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T13:00:00+00:00",
+            "temperature_c": -2.2,
+            "wind_ms": 6.39,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-25T14:00:00+00:00",
+            "temperature_c": -2.4,
+            "wind_ms": 6.33,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-25T15:00:00+00:00",
+            "temperature_c": -2.56,
+            "wind_ms": 6.26,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-25T16:00:00+00:00",
+            "temperature_c": -2.72,
+            "wind_ms": 6.37,
+            "precipitation_mm_median": 0.1,
             "rain_model_votes": 1
           },
           {
-            "end_utc": "2026-11-24T08:00:00+00:00",
-            "temperature_c": -1.38,
-            "wind_ms": 4.93,
+            "end_utc": "2026-11-25T17:00:00+00:00",
+            "temperature_c": -2.98,
+            "wind_ms": 6.45,
             "precipitation_mm_median": 0.1,
-            "rain_model_votes": 2
-          },
-          {
-            "end_utc": "2026-11-24T09:00:00+00:00",
-            "temperature_c": -1.22,
-            "wind_ms": 5.4,
-            "precipitation_mm_median": 0.2,
-            "rain_model_votes": 3
-          },
-          {
-            "end_utc": "2026-11-24T10:00:00+00:00",
-            "temperature_c": -0.94,
-            "wind_ms": 5.96,
-            "precipitation_mm_median": 0.2,
-            "rain_model_votes": 3
-          },
-          {
-            "end_utc": "2026-11-24T11:00:00+00:00",
-            "temperature_c": -0.9,
-            "wind_ms": 6.06,
-            "precipitation_mm_median": 0.4,
-            "rain_model_votes": 4
-          },
-          {
-            "end_utc": "2026-11-24T12:00:00+00:00",
-            "temperature_c": -0.84,
-            "wind_ms": 6.59,
-            "precipitation_mm_median": 0.5,
-            "rain_model_votes": 4
-          },
-          {
-            "end_utc": "2026-11-24T13:00:00+00:00",
-            "temperature_c": -0.92,
-            "wind_ms": 6.88,
-            "precipitation_mm_median": 0.6,
-            "rain_model_votes": 5
-          },
-          {
-            "end_utc": "2026-11-24T14:00:00+00:00",
-            "temperature_c": -1.06,
-            "wind_ms": 7.15,
-            "precipitation_mm_median": 0.7,
-            "rain_model_votes": 5
-          },
-          {
-            "end_utc": "2026-11-24T15:00:00+00:00",
-            "temperature_c": -1.18,
-            "wind_ms": 7.26,
-            "precipitation_mm_median": 0.7,
-            "rain_model_votes": 5
-          },
-          {
-            "end_utc": "2026-11-24T16:00:00+00:00",
-            "temperature_c": -1.32,
-            "wind_ms": 7.3,
-            "precipitation_mm_median": 0.7,
-            "rain_model_votes": 5
-          },
-          {
-            "end_utc": "2026-11-24T17:00:00+00:00",
-            "temperature_c": -1.46,
-            "wind_ms": 7.3,
-            "precipitation_mm_median": 0.6,
-            "rain_model_votes": 5
-          },
-          {
-            "end_utc": "2026-11-24T18:00:00+00:00",
-            "temperature_c": -1.54,
-            "wind_ms": 7.26,
-            "precipitation_mm_median": 0.6,
-            "rain_model_votes": 5
+            "rain_model_votes": 0
           }
         ]
       },
       "verification": {
         "hourly": {
-          "forecast_issued_utc": "2026-11-20T22:47:45.233002+00:00",
-          "verified_utc": "2026-11-23T18:04:05.931945+00:00",
-          "archive_id": "podolsk_20261120T224745233002Z_12208ba9.json",
+          "forecast_issued_utc": "2026-11-21T14:37:59.736316+00:00",
+          "verified_utc": "2026-11-24T17:41:33.339999+00:00",
+          "archive_id": "podolsk_20261121T143759736316Z_bc82a593.json",
           "temperature_station": {
             "id": "UUDD0",
             "name": "Moscow / Lyamtsino",
@@ -200,9 +200,9 @@
             "interval_minutes": 10
           },
           "hours_compared": 24,
-          "temperature_mae_c": 0.85833,
-          "wind_mae_ms": 1.3957,
-          "rain_mae_mm_per_hour": 0.11667,
+          "temperature_mae_c": 0.65917,
+          "wind_mae_ms": 0.9855,
+          "rain_mae_mm_per_hour": 0.04875,
           "local_city_truth": false
         },
         "rain_12h": {
@@ -227,8 +227,8 @@
         }
       },
       "history": {
-        "temperature_independent_hours": 807,
-        "temperature_independent_days": 35,
+        "temperature_independent_hours": 823,
+        "temperature_independent_days": 36,
         "rain_12h_periods": 34,
         "rain_12h_wet_periods": 14,
         "rain_12h_mae_mm": 0.314,
@@ -300,202 +300,202 @@
         "training_end_utc_exclusive": "2026-11-08T00:00:00+00:00",
         "train_hours": 479,
         "train_days": 21,
-        "holdout_hours": 328,
-        "holdout_days": 14,
+        "holdout_hours": 344,
+        "holdout_days": 15,
         "experimental": true,
         "local_city_truth": false,
         "enabled": true,
         "delta_c": 0.448,
-        "holdout_raw_mae_c": 0.745,
-        "holdout_adjusted_mae_c": 0.652,
-        "holdout_relative_gain": 0.1248,
+        "holdout_raw_mae_c": 0.728,
+        "holdout_adjusted_mae_c": 0.642,
+        "holdout_relative_gain": 0.118,
         "status": "experimental_station_adjustment"
       }
     },
     "chekhov": {
       "name": "Чехов",
       "forecast": {
-        "issued_utc": "2026-11-23T18:04:50.910363+00:00",
-        "archive_id": "chekhov_20261123T180450910363Z_680b2d8a.json",
+        "issued_utc": "2026-11-24T17:41:41.168335+00:00",
+        "archive_id": "chekhov_20261124T174141168335Z_4acd7c55.json",
         "source": "Open-Meteo model forecasts, archived by Weather Ensemble",
         "model_count": 5,
         "rain_probability_calibrated": false,
         "hours": [
           {
-            "end_utc": "2026-11-23T19:00:00+00:00",
-            "temperature_c": -1.62,
-            "wind_ms": 1.8,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-23T20:00:00+00:00",
-            "temperature_c": -1.86,
-            "wind_ms": 1.5,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-23T21:00:00+00:00",
-            "temperature_c": -2.3,
-            "wind_ms": 1.6,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-23T22:00:00+00:00",
-            "temperature_c": -2.46,
-            "wind_ms": 1.51,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-23T23:00:00+00:00",
-            "temperature_c": -2.22,
-            "wind_ms": 1.54,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-24T00:00:00+00:00",
-            "temperature_c": -2.34,
-            "wind_ms": 1.54,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-24T01:00:00+00:00",
-            "temperature_c": -2.38,
-            "wind_ms": 1.67,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-24T02:00:00+00:00",
-            "temperature_c": -2.54,
-            "wind_ms": 2.08,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-24T03:00:00+00:00",
-            "temperature_c": -2.7,
-            "wind_ms": 2.49,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-24T04:00:00+00:00",
-            "temperature_c": -2.7,
-            "wind_ms": 3.01,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-24T05:00:00+00:00",
-            "temperature_c": -2.72,
-            "wind_ms": 3.5,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
-          {
-            "end_utc": "2026-11-24T06:00:00+00:00",
-            "temperature_c": -2.42,
-            "wind_ms": 3.98,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 1
-          },
-          {
-            "end_utc": "2026-11-24T07:00:00+00:00",
-            "temperature_c": -1.92,
-            "wind_ms": 4.41,
-            "precipitation_mm_median": 0.2,
-            "rain_model_votes": 3
-          },
-          {
-            "end_utc": "2026-11-24T08:00:00+00:00",
-            "temperature_c": -1.58,
-            "wind_ms": 5.01,
-            "precipitation_mm_median": 0.4,
-            "rain_model_votes": 3
-          },
-          {
-            "end_utc": "2026-11-24T09:00:00+00:00",
-            "temperature_c": -1.4,
-            "wind_ms": 5.43,
-            "precipitation_mm_median": 0.4,
-            "rain_model_votes": 4
-          },
-          {
-            "end_utc": "2026-11-24T10:00:00+00:00",
-            "temperature_c": -1.18,
-            "wind_ms": 5.81,
-            "precipitation_mm_median": 0.4,
-            "rain_model_votes": 4
-          },
-          {
-            "end_utc": "2026-11-24T11:00:00+00:00",
-            "temperature_c": -1.06,
-            "wind_ms": 6.08,
-            "precipitation_mm_median": 0.6,
-            "rain_model_votes": 4
-          },
-          {
-            "end_utc": "2026-11-24T12:00:00+00:00",
-            "temperature_c": -1.04,
-            "wind_ms": 6.16,
-            "precipitation_mm_median": 0.7,
-            "rain_model_votes": 5
-          },
-          {
-            "end_utc": "2026-11-24T13:00:00+00:00",
-            "temperature_c": -1.04,
-            "wind_ms": 6.59,
-            "precipitation_mm_median": 0.7,
-            "rain_model_votes": 5
-          },
-          {
-            "end_utc": "2026-11-24T14:00:00+00:00",
-            "temperature_c": -1.12,
-            "wind_ms": 6.71,
-            "precipitation_mm_median": 0.8,
-            "rain_model_votes": 5
-          },
-          {
-            "end_utc": "2026-11-24T15:00:00+00:00",
-            "temperature_c": -1.26,
-            "wind_ms": 6.8,
-            "precipitation_mm_median": 0.8,
-            "rain_model_votes": 5
-          },
-          {
-            "end_utc": "2026-11-24T16:00:00+00:00",
-            "temperature_c": -1.36,
+            "end_utc": "2026-11-24T18:00:00+00:00",
+            "temperature_c": -1.28,
             "wind_ms": 6.92,
             "precipitation_mm_median": 0.8,
             "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-24T17:00:00+00:00",
-            "temperature_c": -1.54,
-            "wind_ms": 6.84,
+            "end_utc": "2026-11-24T19:00:00+00:00",
+            "temperature_c": -1.42,
+            "wind_ms": 6.87,
+            "precipitation_mm_median": 0.9,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-24T20:00:00+00:00",
+            "temperature_c": -1.48,
+            "wind_ms": 6.86,
+            "precipitation_mm_median": 0.9,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-24T21:00:00+00:00",
+            "temperature_c": -1.56,
+            "wind_ms": 6.92,
+            "precipitation_mm_median": 1.1,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-24T22:00:00+00:00",
+            "temperature_c": -1.6,
+            "wind_ms": 6.97,
+            "precipitation_mm_median": 1.1,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-24T23:00:00+00:00",
+            "temperature_c": -1.66,
+            "wind_ms": 7.0,
+            "precipitation_mm_median": 1.1,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T00:00:00+00:00",
+            "temperature_c": -1.72,
+            "wind_ms": 6.94,
+            "precipitation_mm_median": 1.1,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T01:00:00+00:00",
+            "temperature_c": -1.8,
+            "wind_ms": 6.88,
+            "precipitation_mm_median": 1.0,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T02:00:00+00:00",
+            "temperature_c": -1.86,
+            "wind_ms": 6.79,
+            "precipitation_mm_median": 0.8,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T03:00:00+00:00",
+            "temperature_c": -1.9,
+            "wind_ms": 6.67,
             "precipitation_mm_median": 0.7,
             "rain_model_votes": 5
           },
           {
-            "end_utc": "2026-11-24T18:00:00+00:00",
-            "temperature_c": -1.68,
-            "wind_ms": 6.8,
-            "precipitation_mm_median": 0.7,
+            "end_utc": "2026-11-25T04:00:00+00:00",
+            "temperature_c": -1.96,
+            "wind_ms": 6.56,
+            "precipitation_mm_median": 0.6,
             "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T05:00:00+00:00",
+            "temperature_c": -2.0,
+            "wind_ms": 6.37,
+            "precipitation_mm_median": 0.4,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T06:00:00+00:00",
+            "temperature_c": -2.04,
+            "wind_ms": 6.24,
+            "precipitation_mm_median": 0.4,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T07:00:00+00:00",
+            "temperature_c": -1.96,
+            "wind_ms": 6.14,
+            "precipitation_mm_median": 0.4,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T08:00:00+00:00",
+            "temperature_c": -1.88,
+            "wind_ms": 6.13,
+            "precipitation_mm_median": 0.4,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T09:00:00+00:00",
+            "temperature_c": -1.78,
+            "wind_ms": 6.18,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T10:00:00+00:00",
+            "temperature_c": -1.74,
+            "wind_ms": 6.01,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T11:00:00+00:00",
+            "temperature_c": -1.84,
+            "wind_ms": 5.96,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-25T12:00:00+00:00",
+            "temperature_c": -2.0,
+            "wind_ms": 6.08,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 4
+          },
+          {
+            "end_utc": "2026-11-25T13:00:00+00:00",
+            "temperature_c": -2.22,
+            "wind_ms": 6.0,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T14:00:00+00:00",
+            "temperature_c": -2.44,
+            "wind_ms": 5.96,
+            "precipitation_mm_median": 0.3,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T15:00:00+00:00",
+            "temperature_c": -2.62,
+            "wind_ms": 5.92,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T16:00:00+00:00",
+            "temperature_c": -2.82,
+            "wind_ms": 5.97,
+            "precipitation_mm_median": 0.2,
+            "rain_model_votes": 5
+          },
+          {
+            "end_utc": "2026-11-25T17:00:00+00:00",
+            "temperature_c": -3.0,
+            "wind_ms": 6.02,
+            "precipitation_mm_median": 0.1,
+            "rain_model_votes": 1
           }
         ]
       },
       "verification": {
         "hourly": {
-          "forecast_issued_utc": "2026-11-20T22:47:47.628167+00:00",
-          "verified_utc": "2026-11-23T18:04:05.931945+00:00",
-          "archive_id": "chekhov_20261120T224747628167Z_4874f8f1.json",
+          "forecast_issued_utc": "2026-11-21T14:38:38.374590+00:00",
+          "verified_utc": "2026-11-24T17:41:33.339999+00:00",
+          "archive_id": "chekhov_20261121T143838374590Z_0e5e5726.json",
           "temperature_station": {
             "id": "UUDD0",
             "name": "Moscow / Lyamtsino",
@@ -508,9 +508,9 @@
             "interval_minutes": 10
           },
           "hours_compared": 24,
-          "temperature_mae_c": 1.02833,
-          "wind_mae_ms": 1.59495,
-          "rain_mae_mm_per_hour": 0.1,
+          "temperature_mae_c": 0.985,
+          "wind_mae_ms": 1.17967,
+          "rain_mae_mm_per_hour": 0.04458,
           "local_city_truth": false
         },
         "rain_12h": {
@@ -535,8 +535,8 @@
         }
       },
       "history": {
-        "temperature_independent_hours": 807,
-        "temperature_independent_days": 35,
+        "temperature_independent_hours": 823,
+        "temperature_independent_days": 36,
         "rain_12h_periods": 37,
         "rain_12h_wet_periods": 11,
         "rain_12h_mae_mm": 0.257,
@@ -608,15 +608,15 @@
         "training_end_utc_exclusive": "2026-11-08T00:00:00+00:00",
         "train_hours": 479,
         "train_days": 21,
-        "holdout_hours": 328,
-        "holdout_days": 14,
+        "holdout_hours": 344,
+        "holdout_days": 15,
         "experimental": true,
         "local_city_truth": false,
         "enabled": true,
         "delta_c": 0.38,
-        "holdout_raw_mae_c": 0.883,
-        "holdout_adjusted_mae_c": 0.755,
-        "holdout_relative_gain": 0.1453,
+        "holdout_raw_mae_c": 0.871,
+        "holdout_adjusted_mae_c": 0.741,
+        "holdout_relative_gain": 0.1498,
         "status": "experimental_station_adjustment"
       }
     }
