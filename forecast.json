@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-24T19:02:47.897089+00:00",
+  "generated_utc": "2026-11-25T03:08:43.501945+00:00",
   "time_zone": "Europe/Moscow",
   "probability_calibrated": false,
   "cities": {
@@ -206,12 +206,12 @@
           "local_city_truth": false
         },
         "rain_12h": {
-          "period_start_utc": "2026-11-22T18:00:00+00:00",
-          "period_end_utc": "2026-11-23T06:00:00+00:00",
-          "forecast_issued_utc": "2026-11-22T14:32:40.676031+00:00",
-          "verified_utc": "2026-11-23T19:26:15.298739+00:00",
-          "forecast_archive_id": "podolsk_20261122T143240676031Z_1501af01.json",
-          "observation_archive_id": "20261123T060000Z_8450cfb71145.json",
+          "period_start_utc": "2026-11-24T06:00:00+00:00",
+          "period_end_utc": "2026-11-24T18:00:00+00:00",
+          "forecast_issued_utc": "2026-11-23T18:04:11.850861+00:00",
+          "verified_utc": "2026-11-25T03:08:08.441873+00:00",
+          "forecast_archive_id": "podolsk_20261123T180411850861Z_dd91c1d9.json",
+          "observation_archive_id": "20261124T180000Z_9c8626313015.json",
           "station": {
             "id": "27613",
             "name": "Домодедово, аэропорт (SYNOP)",
@@ -220,8 +220,8 @@
             "distance_km": 22.42,
             "provider": "RP5 (Raspisaniye Pogodi Ltd.), station SYNOP reports"
           },
-          "observed_mm": 0.6,
-          "predicted_mm_equal_mean": 0.48,
+          "observed_mm": 8.0,
+          "predicted_mm_equal_mean": 5.52,
           "hours_compared": 12,
           "local_city_truth": false
         }
@@ -229,10 +229,18 @@
       "history": {
         "temperature_independent_hours": 823,
         "temperature_independent_days": 36,
-        "rain_12h_periods": 34,
-        "rain_12h_wet_periods": 14,
-        "rain_12h_mae_mm": 0.314,
+        "rain_12h_periods": 35,
+        "rain_12h_wet_periods": 15,
+        "rain_12h_mae_mm": 0.376,
         "recent_rain_12h": [
+          {
+            "period_start_utc": "2026-11-24T06:00:00+00:00",
+            "period_end_utc": "2026-11-24T18:00:00+00:00",
+            "forecast_issued_utc": "2026-11-23T18:04:11.850861+00:00",
+            "station_id": "27613",
+            "observed_mm": 8.0,
+            "predicted_mm": 5.52
+          },
           {
             "period_start_utc": "2026-11-22T18:00:00+00:00",
             "period_end_utc": "2026-11-23T06:00:00+00:00",
@@ -280,14 +288,6 @@
             "station_id": "27613",
             "observed_mm": 1.0,
             "predicted_mm": 2.28
-          },
-          {
-            "period_start_utc": "2026-11-16T18:00:00+00:00",
-            "period_end_utc": "2026-11-17T06:00:00+00:00",
-            "forecast_issued_utc": "2026-11-16T15:42:28.529676+00:00",
-            "station_id": "27613",
-            "observed_mm": 0.0,
-            "predicted_mm": 0.0
           }
         ]
       },
@@ -514,12 +514,12 @@
           "local_city_truth": false
         },
         "rain_12h": {
-          "period_start_utc": "2026-11-22T18:00:00+00:00",
-          "period_end_utc": "2026-11-23T06:00:00+00:00",
-          "forecast_issued_utc": "2026-11-22T14:32:44.520890+00:00",
-          "verified_utc": "2026-11-23T19:26:15.298739+00:00",
-          "forecast_archive_id": "chekhov_20261122T143244520890Z_b842a28b.json",
-          "observation_archive_id": "20261123T060000Z_5145cf4c9605.json",
+          "period_start_utc": "2026-11-24T06:00:00+00:00",
+          "period_end_utc": "2026-11-24T18:00:00+00:00",
+          "forecast_issued_utc": "2026-11-23T18:04:50.910363+00:00",
+          "verified_utc": "2026-11-25T03:08:08.441873+00:00",
+          "forecast_archive_id": "chekhov_20261123T180450910363Z_680b2d8a.json",
+          "observation_archive_id": "20261124T180000Z_9df988aee256.json",
           "station": {
             "id": "27618",
             "name": "Серпухов, М-II (SYNOP)",
@@ -528,8 +528,8 @@
             "distance_km": 25.24,
             "provider": "RP5 (Raspisaniye Pogodi Ltd.), station SYNOP reports"
           },
-          "observed_mm": 1.0,
-          "predicted_mm_equal_mean": 0.96,
+          "observed_mm": 6.0,
+          "predicted_mm_equal_mean": 6.7,
           "hours_compared": 12,
           "local_city_truth": false
         }
@@ -537,10 +537,18 @@
       "history": {
         "temperature_independent_hours": 823,
         "temperature_independent_days": 36,
-        "rain_12h_periods": 37,
-        "rain_12h_wet_periods": 11,
-        "rain_12h_mae_mm": 0.257,
+        "rain_12h_periods": 38,
+        "rain_12h_wet_periods": 12,
+        "rain_12h_mae_mm": 0.269,
         "recent_rain_12h": [
+          {
+            "period_start_utc": "2026-11-24T06:00:00+00:00",
+            "period_end_utc": "2026-11-24T18:00:00+00:00",
+            "forecast_issued_utc": "2026-11-23T18:04:50.910363+00:00",
+            "station_id": "27618",
+            "observed_mm": 6.0,
+            "predicted_mm": 6.7
+          },
           {
             "period_start_utc": "2026-11-22T18:00:00+00:00",
             "period_end_utc": "2026-11-23T06:00:00+00:00",
@@ -588,14 +596,6 @@
             "station_id": "27618",
             "observed_mm": 3.0,
             "predicted_mm": 2.32
-          },
-          {
-            "period_start_utc": "2026-11-17T18:00:00+00:00",
-            "period_end_utc": "2026-11-18T06:00:00+00:00",
-            "forecast_issued_utc": "2026-11-17T15:58:51.806136+00:00",
-            "station_id": "27618",
-            "observed_mm": 4.0,
-            "predicted_mm": 2.96
           }
         ]
       },
