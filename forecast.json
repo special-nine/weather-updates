@@ -1,25 +1,18 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-26T15:09:11.586017+00:00",
+  "generated_utc": "2026-11-26T16:52:55.387314+00:00",
   "time_zone": "Europe/Moscow",
   "probability_calibrated": false,
   "cities": {
     "podolsk": {
       "name": "Подольск",
       "forecast": {
-        "issued_utc": "2026-11-26T15:08:44.288836+00:00",
-        "archive_id": "podolsk_20261126T150844288836Z_ea7d48ef.json",
+        "issued_utc": "2026-11-26T16:52:31.814862+00:00",
+        "archive_id": "podolsk_20261126T165231814862Z_ee271c82.json",
         "source": "Open-Meteo model forecasts, archived by Weather Ensemble",
         "model_count": 5,
         "rain_probability_calibrated": false,
         "hours": [
-          {
-            "end_utc": "2026-11-26T16:00:00+00:00",
-            "temperature_c": -3.94,
-            "wind_ms": 5.7,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
           {
             "end_utc": "2026-11-26T17:00:00+00:00",
             "temperature_c": -4.1,
@@ -180,6 +173,13 @@
             "wind_ms": 5.11,
             "precipitation_mm_median": 0.0,
             "rain_model_votes": 1
+          },
+          {
+            "end_utc": "2026-11-27T16:00:00+00:00",
+            "temperature_c": -4.06,
+            "wind_ms": 5.07,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 1
           }
         ]
       },
@@ -315,7 +315,7 @@
         "periods": {
           "method_id": "station_12h_mean_median_scale_v1",
           "station_id": "27613",
-          "forecast_issued_utc": "2026-11-26T15:08:44.288836+00:00",
+          "forecast_issued_utc": "2026-11-26T16:52:31.814862+00:00",
           "training_cutoff_utc": "2026-11-08T00:00:00+00:00",
           "train_periods": 20,
           "train_wet_periods": 5,
@@ -420,19 +420,12 @@
     "chekhov": {
       "name": "Чехов",
       "forecast": {
-        "issued_utc": "2026-11-26T15:08:47.516229+00:00",
-        "archive_id": "chekhov_20261126T150847516229Z_8ca3d1e0.json",
+        "issued_utc": "2026-11-26T16:52:34.334522+00:00",
+        "archive_id": "chekhov_20261126T165234334522Z_7f5a52bf.json",
         "source": "Open-Meteo model forecasts, archived by Weather Ensemble",
         "model_count": 5,
         "rain_probability_calibrated": false,
         "hours": [
-          {
-            "end_utc": "2026-11-26T16:00:00+00:00",
-            "temperature_c": -3.88,
-            "wind_ms": 5.22,
-            "precipitation_mm_median": 0.0,
-            "rain_model_votes": 0
-          },
           {
             "end_utc": "2026-11-26T17:00:00+00:00",
             "temperature_c": -4.06,
@@ -593,6 +586,13 @@
             "wind_ms": 4.49,
             "precipitation_mm_median": 0.0,
             "rain_model_votes": 0
+          },
+          {
+            "end_utc": "2026-11-27T16:00:00+00:00",
+            "temperature_c": -4.42,
+            "wind_ms": 4.59,
+            "precipitation_mm_median": 0.0,
+            "rain_model_votes": 1
           }
         ]
       },
@@ -728,7 +728,7 @@
         "periods": {
           "method_id": "station_12h_mean_median_scale_v1",
           "station_id": "27618",
-          "forecast_issued_utc": "2026-11-26T15:08:47.516229+00:00",
+          "forecast_issued_utc": "2026-11-26T16:52:34.334522+00:00",
           "training_cutoff_utc": "2026-11-08T00:00:00+00:00",
           "train_periods": 20,
           "train_wet_periods": 4,
