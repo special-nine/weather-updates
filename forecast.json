@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-27T02:22:31.552489+00:00",
+  "generated_utc": "2026-11-27T04:20:49.374518+00:00",
   "time_zone": "Europe/Moscow",
   "probability_calibrated": false,
   "cities": {
@@ -414,7 +414,7 @@
         "other_station_id": "27613",
         "periods": 61,
         "agreements": 50,
-        "last_end_utc": "2026-11-26T06:00:00+00:00"
+        "last_end_utc": "2026-11-26T18:00:00+00:00"
       }
     },
     "chekhov": {
@@ -825,9 +825,9 @@
         "id": "27614",
         "distance_km": 29.79,
         "other_station_id": "27618",
-        "periods": 63,
-        "agreements": 57,
-        "last_end_utc": "2026-11-26T06:00:00+00:00"
+        "periods": 64,
+        "agreements": 58,
+        "last_end_utc": "2026-11-26T18:00:00+00:00"
       }
     }
   }
