@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_utc": "2026-11-27T16:38:30.366840+00:00",
+  "generated_utc": "2026-11-27T17:37:30.468795+00:00",
   "time_zone": "Europe/Moscow",
   "probability_calibrated": false,
   "cities": {
@@ -619,12 +619,12 @@
           "local_city_truth": false
         },
         "rain_12h": {
-          "period_start_utc": "2026-11-25T18:00:00+00:00",
-          "period_end_utc": "2026-11-26T06:00:00+00:00",
-          "forecast_issued_utc": "2026-11-25T17:11:43.576686+00:00",
-          "verified_utc": "2026-11-26T14:52:39.822342+00:00",
-          "forecast_archive_id": "chekhov_20261125T171143576686Z_db4060bf.json",
-          "observation_archive_id": "20261126T060000Z_400116e0e132.json",
+          "period_start_utc": "2026-11-26T18:00:00+00:00",
+          "period_end_utc": "2026-11-27T06:00:00+00:00",
+          "forecast_issued_utc": "2026-11-26T15:00:33.865527+00:00",
+          "verified_utc": "2026-11-27T17:36:56.521541+00:00",
+          "forecast_archive_id": "chekhov_20261126T150033865527Z_b6fc813d.json",
+          "observation_archive_id": "20261127T060000Z_dca4c0f751b7.json",
           "station": {
             "id": "27618",
             "name": "Серпухов, М-II (SYNOP)",
@@ -634,7 +634,7 @@
             "provider": "RP5 (Raspisaniye Pogodi Ltd.), station SYNOP reports"
           },
           "observed_mm": 0.0,
-          "predicted_mm_equal_mean": 0.34,
+          "predicted_mm_equal_mean": 0.0,
           "hours_compared": 12,
           "local_city_truth": false
         }
@@ -642,10 +642,18 @@
       "history": {
         "temperature_independent_hours": 894,
         "temperature_independent_days": 39,
-        "rain_12h_periods": 40,
+        "rain_12h_periods": 41,
         "rain_12h_wet_periods": 13,
-        "rain_12h_mae_mm": 0.289,
+        "rain_12h_mae_mm": 0.282,
         "recent_rain_12h": [
+          {
+            "period_start_utc": "2026-11-26T18:00:00+00:00",
+            "period_end_utc": "2026-11-27T06:00:00+00:00",
+            "forecast_issued_utc": "2026-11-26T15:00:33.865527+00:00",
+            "station_id": "27618",
+            "observed_mm": 0.0,
+            "predicted_mm": 0.0
+          },
           {
             "period_start_utc": "2026-11-25T18:00:00+00:00",
             "period_end_utc": "2026-11-26T06:00:00+00:00",
@@ -693,14 +701,6 @@
             "station_id": "27618",
             "observed_mm": 1.0,
             "predicted_mm": 1.26
-          },
-          {
-            "period_start_utc": "2026-11-20T18:00:00+00:00",
-            "period_end_utc": "2026-11-21T06:00:00+00:00",
-            "forecast_issued_utc": "2026-11-20T15:26:22.165301+00:00",
-            "station_id": "27618",
-            "observed_mm": 0.0,
-            "predicted_mm": 2.08
           }
         ]
       },
@@ -746,14 +746,14 @@
             "candidate_false_alarms": 0
           },
           "prospective": {
-            "periods": 0,
+            "periods": 1,
             "wet_periods": 0,
-            "raw_mae_mm": null,
-            "raw_bias_mm": null,
+            "raw_mae_mm": 0.0,
+            "raw_bias_mm": 0.0,
             "raw_misses": 0,
             "raw_false_alarms": 0,
-            "candidate_mae_mm": null,
-            "candidate_bias_mm": null,
+            "candidate_mae_mm": 0.0,
+            "candidate_bias_mm": 0.0,
             "candidate_misses": 0,
             "candidate_false_alarms": 0
           },
